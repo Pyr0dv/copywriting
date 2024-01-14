@@ -164,6 +164,11 @@ border-radius: 5px;
   border-radius: 20px;
 }
 
+.pic15 {
+    height: 250px;
+    border-radius: 0px;
+  }
+
 
 .head {
     height: 160px;
