@@ -155,8 +155,8 @@ border-radius: 5px;
 
 
 .pic {
-  height: 120px;
-  border-radius: 100px;
+  height: 300px;
+  border-radius: 20px;
 }
 
 .pic2 {
@@ -168,4 +168,15 @@ border-radius: 5px;
 .head {
     height: 160px;
     border-radius: 20xp;
+}
+
+
+
+.vip{
+    background-color: rgba(236,200,112,255);
+    color: rgba(31,27,15,255);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+
 }
