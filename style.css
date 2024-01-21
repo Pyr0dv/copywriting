@@ -176,6 +176,10 @@ border-radius: 5px;
 }
 
 
+.vid {
+  height: 30rem;
+  border-radius: 5px;
+}
 
 .vip{
     background-color: rgba(236,200,112,255);
@@ -185,3 +189,4 @@ border-radius: 5px;
     border-radius: 10px;
 
 }
+
