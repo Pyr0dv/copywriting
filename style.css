@@ -1,5 +1,5 @@
 body {
-    background-image: url("./background\ for\ web.png");
+  background-image: url("./background\ for\ web.png");
     background-repeat: repeat;
     background-color: #000000;
         background-position: center;
@@ -190,3 +190,34 @@ border-radius: 5px;
 
 }
 
+
+.shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.shine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.8) 30%, transparent 70%, transparent 100%);
+  opacity: 0;
+  animation: shineAnimation 2s linear infinite; /* Adjust the animation duration as needed */
+}
+
+@keyframes shineAnimation {
+  0% {
+    opacity: 0;
+    left: -100%;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: 100%;
+  }
+}
