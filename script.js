@@ -11,3 +11,5 @@ if(pass !== appPass){
     body.style.display = 'block';
     //window.location.href="leve1.html"
 }
+
+
